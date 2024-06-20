@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/VVMPortfolio/static/css/main.26c0f03d.css",
-    "main.js": "/VVMPortfolio/static/js/main.e6940fa7.js",
+    "main.css": "/VVMPortfolio/static/css/main.64ea2de6.css",
+    "main.js": "/VVMPortfolio/static/js/main.1ae19741.js",
     "static/js/453.d45caace.chunk.js": "/VVMPortfolio/static/js/453.d45caace.chunk.js",
     "static/media/profile-pic.png": "/VVMPortfolio/static/media/profile-pic.17ca3ac4a043cb6e3e93.png",
     "index.html": "/VVMPortfolio/index.html",
-    "main.26c0f03d.css.map": "/VVMPortfolio/static/css/main.26c0f03d.css.map",
-    "main.e6940fa7.js.map": "/VVMPortfolio/static/js/main.e6940fa7.js.map",
+    "main.64ea2de6.css.map": "/VVMPortfolio/static/css/main.64ea2de6.css.map",
+    "main.1ae19741.js.map": "/VVMPortfolio/static/js/main.1ae19741.js.map",
     "453.d45caace.chunk.js.map": "/VVMPortfolio/static/js/453.d45caace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26c0f03d.css",
-    "static/js/main.e6940fa7.js"
+    "static/css/main.64ea2de6.css",
+    "static/js/main.1ae19741.js"
   ]
 }

@@ -37,7 +37,7 @@ body{
     margin-bottom: 3px;
 }
 
-button{
+button.hireme, button.resume{
     display: inline-block;
     margin: 15px 5px 5px 5px;
     padding: 10px 20px;
@@ -46,7 +46,7 @@ button{
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    transition: background-color 0.5s ease;
+    transition: background-color 1s ease;
 }
 
 .hireme{
@@ -54,24 +54,24 @@ button{
     color: blue;
 }
 .hireme:hover {
-    background-color: rgb(62, 62, 201);
-    color: gold;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .resume{
-    background-color: rgb(62, 62, 201);
+    background-color: rgb(54, 54, 255);
     color: gold;
 }
 .resume:hover{
-    background-color: gold;
-    color: blue;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top:20px;
 }
 
 .img img{
@@ -93,7 +93,7 @@ button{
     }
 
     .homeinfo h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .homeinfo p{
@@ -101,17 +101,21 @@ button{
     }
 
     span{
-        font-size: large;
+        font-size: larger;
     }
 
     .vin{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .img{
-        max-width: 37%;
+        max-width: 35%;
+        margin-top: 4rem;
     }
 
+    button.hireme, button.resume{
+        font-size: 1.1rem;
+    }
 
 
 }

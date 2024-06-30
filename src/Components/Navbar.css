@@ -1,0 +1,131 @@
+.skillmain {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+.navbar {
+    background: rgb(30, 30, 30);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0rem;
+    z-index: +1;
+}
+
+.iconimg{
+    object-fit: cover;
+    height: 3.9rem;
+    width: 4.9rem;
+    margin-left: 1rem;
+}
+.iconimg:hover{
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.7s;
+}
+
+.navmain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.navtext{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.navtext:hover{
+    color: gold;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid gold;
+}
+.active{
+    color: gold;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid gold;
+}
+
+.contactbtn{
+    background-color: #0056b3;
+    border: none;
+    border-radius: 7px;
+    width: 7.5rem;
+    height: 2.5rem;
+    font-size: medium;
+    font-weight: bold;
+    color: gold;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.contactbtn:hover{
+    transform: scale(1.1, 1.1);
+    color: blue;
+    background-color: gold;
+ 
+}
+.none{
+   text-decoration: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 1rem; /* Add margin to the menu toggle label */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .navmain {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: black; /* Set background to black */
+        position: absolute;
+        top: 5rem; /* Ensure the menu stays below the navbar */
+    }
+
+    .contactbtn{
+        background-color: transparent;
+        color: white;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-toggle:checked + .menu-icon + .navmain {
+        display: flex;
+    }
+
+    .navtext {
+        padding: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactbtn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .iconimg {
+        margin-bottom: 1rem;
+    }
+}

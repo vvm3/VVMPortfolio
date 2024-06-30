@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.contactPageTitle {
+  font-size: 3rem;
+  margin-top: 2rem;
+  /* margin-bottom: 1rem; */
+  color: white;
+  text-align: center;
+}
+
+.skillTitleMy {
+  color: gold;
+}
+
+form {
+  /* background-color: rgba(40, 40, 40, 0.8); */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 650px;
+  /* Increased max-width */
+  margin: auto;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: flex;
+  font-size: 16px;
+  color: white;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.forminput,
+.formtxtmsg {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.forminput:hover,
+.formtxtmsg:hover {
+  transition: 1.5s;
+  box-shadow: 0 0 10px gold;
+}
+
+.forminput::placeholder,
+.formtxtmsg::placeholder {
+  color: rgb(94, 92, 92);
+}
+
+.contactDesc {
+  margin-bottom: 15px;
+}
+
+.formtxtmsg {
+  height: 100px;
+}
+
+.formbtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 7px;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 1rem;
+}
+
+.formbtn:hover {
+  background-color: #0056b3;
+  color: gold;
+  box-shadow: 0 0 8px gold;
+}

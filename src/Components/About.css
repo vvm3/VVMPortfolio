@@ -1,5 +1,106 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.about {
+    line-height: 1.5;
+    color: whitesmoke;
+    max-width: 80%;
+    margin: auto;
+    background-color: transparent;
+    padding: 5px 0px;
+}
+
+.abmaintitle {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.a {
+    font-size: 3rem;
+    color: gold;
+}
+
+.abtitle {
+    margin: 10px 0px;
+    color: gold;
+    font-size: 20px;
+}
+
+.aboutext {
+    text-align: justify;
+    margin: 0rem 1.5rem;
+    font-size: 15px;
+}
+
+.vm {
+    color: gold;
+}
+
+.abtitleinfo {
+    font-size: 14px;
+    line-height: 1.3;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0rem;
+    animation: slideInRight 4s ease-in-out;
+}
+
+.abtitleinf {
+    font-size: 14px;
+    line-height: 1.3;
+    animation: slideInLeft 4s ease-in-out;
+}
+
+.edu {
+    margin: 15px 30px;
+}
+
+.per {
+    color: gold;
+}
+
+@media(max-width:768px) {
+    .abtitleinfo {
+        font-size: 14px;
+        line-height: 1.3;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .about {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

@@ -1,0 +1,134 @@
+.skillmain {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.skilltitle {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.skill {
+    display: inline-block;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill:hover .icon {
+    transform: rotate(360deg);
+}
+
+@media (max-width:768px) {
+    .skillmain {
+        text-align: center;
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .skilltitle {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .skill {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .skill h2 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .icon {
+        font-size: 90px;
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+
+.html {
+    color: #e34c26;
+}
+
+.css {
+    color: #2965f1;
+}
+
+.js {
+    color: #f0db4f;
+}
+
+.react {
+    color: #3296e8;
+}
+
+.java {
+    color: #df1616;
+}
+
+.oops {
+    color: #388e3c;
+}
+
+.sql {
+    color: #ff9800;
+    /* 1976d2 */
+}
+
+.dsa {
+    color: gold;
+}
+
+.c {
+    color: #9e30ba;
+}
+
+.jdbc {
+    /* color: #ff9800 ; */
+}
+
+.jsp {
+    color: #ebde20c0;
+}
+
+.hibernate {
+    color: #03a9f4;
+}
+
+.spring {
+    color: #8bc34a;
+}
+
+.dotnet {
+    color: #8800ff;
+}
+
+.solution {
+    color: #cddc39;
+}
+
+.leader {
+    color: #03a0f4;
+}
+
+.msoffice {
+    color: rgb(255, 153, 0);
+}
+
+.collab {
+    color: #7be35e;
+}

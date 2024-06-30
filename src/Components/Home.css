@@ -1,45 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(50, 50, 50);
+body {
+    background: rgb(30, 30, 30);
     color: white;
 }
 
-.home{
+.fsd {
+    color: transparent;
+    -webkit-text-stroke: 0.8px whitesmoke;
+    background-image: url(/src/Components/Content/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+.home {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin-top: 5rem;
 }
 
-.homeinfo{
+.homeinfo {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 10px;
 }
 
-.vin{
+.vin {
     color: rgba(255, 213, 0, 0.929);
 }
 
-.homeinfo p {
+.p {
     color: gold;
     font-size: smaller;
+    margin: 4px 0px;
 }
 
 .homeinfo h1 {
     font-size: 1.8rem;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
-button.hireme, button.resume{
+button.hireme,
+button.resume {
     display: inline-block;
-    margin: 15px 5px 5px 5px;
+    margin: 20px 5px 5px 5px;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
@@ -49,73 +59,129 @@ button.hireme, button.resume{
     transition: background-color 1s ease;
 }
 
-.hireme{
+.hireme {
     background-color: gold;
     color: blue;
 }
+
 .hireme:hover {
     background-color: whitesmoke;
     color: black;
 }
 
-.resume{
+.resume {
     background-color: rgb(54, 54, 255);
     color: gold;
 }
-.resume:hover{
+
+.resume:hover {
     background-color: whitesmoke;
     color: black;
 }
 
-.img{
+.myimg {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:20px;
+    margin-top: 1px;
 }
 
-.img img{
+.myimg img {
     max-width: 100%;
     height: auto;
+    opacity: 0;
     border-radius: 50%;
+    animation: moveup 1s linear forwards;
+    animation-delay: 0.4s;
 }
 
-@media (min-width: 768px)
-{
-    .home{
+.left {
+    opacity: 0;
+    animation: slideInLeft 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
+
+.right {
+    opacity: 0;
+    animation: slideInRight 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
+
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveup {
+
+    100% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .home {
         flex-direction: row;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         padding: 20px;
     }
 
-    .homeinfo{
+    .homeinfo {
         max-width: 50%;
     }
 
-    .homeinfo h1{
+    .homeinfo h1 {
         font-size: 2.5rem;
+        margin-bottom: 0px;
     }
 
-    .homeinfo p{
-    line-height: 20px;
+    .homeinfo p {
+        line-height: 20px;
     }
 
-    span{
+    span {
         font-size: larger;
     }
 
-    .vin{
+    .vin {
         font-size: 2.5rem;
     }
 
-    .img{
+    .myimg {
         max-width: 35%;
         margin-top: 4rem;
     }
 
-    button.hireme, button.resume{
+    button.hireme,
+    button.resume {
         font-size: 1.1rem;
     }
-
-
 }

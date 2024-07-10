@@ -132,3 +132,40 @@
 .collab {
     color: #7be35e;
 }
+
+
+.h2 {
+    opacity: 0;
+    animation: slideLeft 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
+
+.skill {
+    opacity: 0;
+    animation: slideRight 1s ease-out forwards;
+    animation-delay: 0.7s;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

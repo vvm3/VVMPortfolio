@@ -101,6 +101,10 @@
         background-color: transparent;
         color: white;
     }
+    .contactbtn:hover{
+        background-color: transparent;
+        color: white;
+    }
 
     .navbar {
         justify-content: space-between;
@@ -127,5 +131,6 @@
 
     .iconimg {
         margin-bottom: 1rem;
+        margin-top: 1.5rem;
     }
 }

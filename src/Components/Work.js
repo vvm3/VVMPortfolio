@@ -8,6 +8,7 @@ import cal from "./Content/CalculatorProject.png";
 import quiz from "./Content/QuizProject.png";
 import todo from "./Content/ToDoProject.png";
 import github from "./Content/GitHubProject.jpg";
+import Footer from './Footer';
 
 const Work = () => {
     return (
@@ -23,6 +24,7 @@ const Work = () => {
                 <WorkChild link="https://github.com/tVM8" img={github} proname="My GitHub Account" technologies="Here Is My All Projects" btnname="Click Here" />
             </main>
             <button className="wbtn" onClick={() => { alert("Now only these projects have been completed, a full stack project is in the process. Please visit on my GitHub account") }}>See More</button>
+            <Footer/>
         </>
     )
 }

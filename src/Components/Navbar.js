@@ -5,18 +5,22 @@ import "./Navbar.css";
 
 
 const Navbar = () => {
+    const handleMenuClick = () => {
+        document.getElementById('menu-toggle').checked = false;
+    };
     return (
         <>
+
             <div className="navbar">
-                <a href="/"><img src={icon} alt="myIcon" className="iconimg" /></a>
+                <a href="*"><img src={icon} alt="myIcon" className="iconimg" /></a>
                 <input type="checkbox" id="menu-toggle" className="menu-toggle"/>
                 <label htmlFor="menu-toggle" className="menu-icon">☰</label>
                 <div className="navmain">
-                    <NavLink exact to="/home" activeClassName="active" className="navtext">Home</NavLink>
-                    <NavLink exact to="/about" activeClassName="active" className="navtext">About</NavLink>
-                    <NavLink exact to="/work" activeClassName="active" className="navtext">Work</NavLink>
-                    <NavLink exact to="/skills" activeClassName="active" className="navtext">Skills</NavLink>
-                    <Link exact to="/contact"><button className="contactbtn">Contact Me</button></Link>
+                    <NavLink exact to="/home" onClick={handleMenuClick} activeClassName="active" className="navtext">Home</NavLink>
+                    <NavLink exact to="/about" onClick={handleMenuClick} activeClassName="active" className="navtext">About</NavLink>
+                    <NavLink exact to="/skills" onClick={handleMenuClick} activeClassName="active" className="navtext">Skills</NavLink>
+                    <NavLink exact to="/work" onClick={handleMenuClick} activeClassName="active" className="navtext">Work</NavLink>
+                    <Link exact to="/contact" onClick={handleMenuClick} ><button className="contactbtn">Contact Me</button></Link>
                 </div>
             </div>
         </>

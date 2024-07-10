@@ -3,6 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+.fb{
+  color: #1877F2;
+  font-size: 35px;
+}
+.fb:hover{
+  transform: scale(1.1, 1.1);
+}
+.insta:hover{
+  transform: scale(1.1, 1.1);
+}
+.li:hover{
+  transform: scale(1.1, 1.1);
+}
+.git:hover{
+  transform: scale(1.1, 1.1);
+}
+.insta{
+  color: rgb(209, 100, 33);
+  font-size: 40px;
+}
+.git{color: line;
+  color: #fffdfd;
+  font-size: 40px
+}
+.li{
+    color: #0077B5;
+    font-size: 40px;
+}
+.media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+}
 
 .formmain {
   display: flex;

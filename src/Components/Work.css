@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 45px;
     padding: 20px;
     margin: auto;
 }
@@ -32,7 +32,7 @@
 .wbtn {
     display: flex;
     margin: auto;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-bottom: 3rem;
     background-color: #007BFF;
     color: #fff;

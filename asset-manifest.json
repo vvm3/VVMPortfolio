@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VVMPortfolio/static/css/main.ed4241b0.css",
-    "main.js": "/VVMPortfolio/static/js/main.a8c3a8cd.js",
+    "main.css": "/VVMPortfolio/static/css/main.6b05a37a.css",
+    "main.js": "/VVMPortfolio/static/js/main.81f87fa6.js",
     "static/js/453.d45caace.chunk.js": "/VVMPortfolio/static/js/453.d45caace.chunk.js",
     "static/media/vm.jpeg": "/VVMPortfolio/static/media/vm.1830b9173a5f616cd472.jpeg",
     "static/media/GitHubProject.jpg": "/VVMPortfolio/static/media/GitHubProject.28a17e32e3935d4b9324.jpg",
@@ -12,12 +12,12 @@
     "static/media/TicTacToeProject.png": "/VVMPortfolio/static/media/TicTacToeProject.1f3774223c1f1ecebbd8.png",
     "static/media/QuizProject.png": "/VVMPortfolio/static/media/QuizProject.2790a09a226ed3ab151b.png",
     "index.html": "/VVMPortfolio/index.html",
-    "main.ed4241b0.css.map": "/VVMPortfolio/static/css/main.ed4241b0.css.map",
-    "main.a8c3a8cd.js.map": "/VVMPortfolio/static/js/main.a8c3a8cd.js.map",
+    "main.6b05a37a.css.map": "/VVMPortfolio/static/css/main.6b05a37a.css.map",
+    "main.81f87fa6.js.map": "/VVMPortfolio/static/js/main.81f87fa6.js.map",
     "453.d45caace.chunk.js.map": "/VVMPortfolio/static/js/453.d45caace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed4241b0.css",
-    "static/js/main.a8c3a8cd.js"
+    "static/css/main.6b05a37a.css",
+    "static/js/main.81f87fa6.js"
   ]
 }

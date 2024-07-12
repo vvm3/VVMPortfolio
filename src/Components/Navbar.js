@@ -12,7 +12,7 @@ const Navbar = () => {
         <>
 
             <div className="navbar">
-                <a href="*"><img src={icon} alt="myIcon" className="iconimg" /></a>
+                <a href="/"><img src={icon} alt="myIcon" className="iconimg" /></a>
                 <input type="checkbox" id="menu-toggle" className="menu-toggle"/>
                 <label htmlFor="menu-toggle" className="menu-icon">☰</label>
                 <div className="navmain">

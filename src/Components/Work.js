@@ -15,7 +15,7 @@ const Work = () => {
         <>
             <h1 className="wmaintitle"><span className="my">My</span> Work</h1>
             <main className="wmain">
-                <WorkChild link=" " img={portfolioImg} proname="Peronal Portfolio" technologies="Technolohies : React.js, JS, CSS3, HTML5" btnname="Try Now" />
+                <WorkChild link="https://vvm3.github.io/VVMPortfolio/" img={portfolioImg} proname="Peronal Portfolio" technologies="Technolohies : React.js, JS, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/VMTIC-TAC-TOE-GAME/" img={game} proname="TIC-TAC-TOE Game" technologies="Technolohies : JavaScript, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/To-Do-React/" img={todoreact} proname="To-Do React App" technologies="Technolohies : React.js, JS, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/VMCalculator/" img={cal} proname="Fully Functional Calculator" technologies="Technolohies : JS, CSS3, HTML5" btnname="Try Now" />

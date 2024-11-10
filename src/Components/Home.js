@@ -13,7 +13,7 @@ const Home = () => {
           <h1 className='fsd'>Full Stack Developer</h1>
           <p className='p'>Seeking an entry level position with growing organization,</p>
           <p className='p'>where I can utilize my analytical thinking, technical & management skills.</p>
-          <a download="Vineet-Magdum's-Resume.pdf" href='Content./Vineet Magdum Resume.pdf'><button className='resume left'>Download Resume</button></a>
+          <a  href="https://drive.google.com/file/d/1SGVAN_lIqIkHEtUyeoWEdj6VcoW4XBdm/view?usp=sharing" download={"Vineet-Magadum-Resume"}><button className='resume left'>Download Resume</button></a>
           <Link exact to="/contact"><button className='hireme right' >Hire Me</button></Link>
         </div>
         <div className='myimg'>

@@ -15,7 +15,7 @@
 }
 
 .my {
-    color: gold;
+    color: rgb(102, 255, 0);
 }
 
 .wmain {
@@ -34,8 +34,8 @@
     margin: auto;
     /* margin-top: 2rem; */
     margin-bottom: 3rem;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #0056b3;
+    color: gold;
     padding: 10px 18px;
     font-weight: bold;
     font-size: 15px;
@@ -47,8 +47,9 @@
 }
 
 .wbtn:hover {
-    background-color: #0056b3;
-    color: gold;
+    /* background-color: #0056b3; */
+    background-color: rgb(170, 255, 0);;
+    color: blue
 }
 
 

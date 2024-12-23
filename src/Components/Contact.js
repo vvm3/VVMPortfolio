@@ -61,7 +61,7 @@ const Contact = () => {
                 </form>
             </div>
             <div className='media'>
-                <a href='https://www.linkedin.com/in/vineet-magadum-500600195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><FaLinkedin className='li'/></a>
+                <a href='https://www.linkedin.com/in/vineet-magadum-500600195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><FaLinkedin className='lin'/></a>
                 <a href='https://www.facebook.com/share/p7ndzwJ1Q7XZra33/?mibextid=qi2Omg'><ImFacebook2 className='fb'/></a>
                 <a href='https://www.instagram.com/tigervineet_vm?igsh=MTJmcWkwZHM3MGUxaA=='><SiInstagram className='insta'/></a>
                 <a href='https://github.com/vvm3'><FaGithub className='git'/></a>

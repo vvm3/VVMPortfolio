@@ -32,13 +32,14 @@ body {
 }
 
 .vin {
-    color: rgba(255, 213, 0, 0.929);
+    color: rgb(102, 255, 0);
 }
 
 .p {
-    color: gold;
+    color: rgb(102, 255, 0);
     font-size: smaller;
     margin: 4px 0px;
+    font-weight: bold;
 }
 
 .homeinfo h1 {
@@ -60,7 +61,7 @@ button.resume {
 }
 
 .hireme {
-    background-color: gold;
+    background-color: rgb(170, 255, 0);
     color: blue;
 }
 
@@ -71,7 +72,8 @@ button.resume {
 
 .resume {
     background-color: rgb(54, 54, 255);
-    color: gold;
+    /* background-color: rgb(119, 255, 0); */
+    color: rgb(170, 255, 0);
 }
 
 .resume:hover {

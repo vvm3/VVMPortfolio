@@ -45,10 +45,10 @@ const Skills = () => {
                 <SiApachetomcat className="icon jsp" />
                 <h2 className='h2'>Servlet/JSP</h2>
             </div>
-            <div className="skill">
+            {/* <div className="skill">
                 <SiHibernate className="icon hibernate" />
                 <h2 className='h2'>Hibernate</h2>
-            </div>
+            </div> */}
             <div className="skill">
                 <SiSpring className="icon spring" />
                 <h2 className='h2'>Spring/SpringBoot</h2>
@@ -61,10 +61,10 @@ const Skills = () => {
                 <SiCsharp className="icon c" />
                 <h2 className='h2'>C#</h2>
             </div>
-            <div className="skill">
+            {/* <div className="skill">
                 <SiDotnet className="icon dotnet" />
                 <h2 className='h2'>ASP.NET MVC</h2>
-            </div>
+            </div> */}
             <div className="skill">
                 <SiMicrosoftword className="icon msoffice" />
                 <h2 className='h2'>MS Office</h2>

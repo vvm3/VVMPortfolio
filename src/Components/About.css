@@ -22,12 +22,12 @@
 
 .a {
     font-size: 3rem;
-    color: gold;
+    color: rgb(102, 255, 0);
 }
 
 .abtitle {
     margin: 10px 0px;
-    color: gold;
+    color: rgb(102, 255, 0);
     font-size: 20px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .vm {
-    color: gold;
+    color: rgb(102, 255, 0);
 }
 
 .abtitleinfo {
@@ -57,12 +57,17 @@
 }
 
 .edu {
-    margin: 15px 30px;
+    margin: 25px 30px;
 }
 
 .per {
-    color: gold;
+    color: rgb(200, 254, 73);
 }
+
+li{
+    font-size: 16px;
+}
+
 
 @media(max-width:768px) {
     .abtitleinfo {

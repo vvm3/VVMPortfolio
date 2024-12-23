@@ -42,32 +42,32 @@
     font-weight: bold;
 }
 .navtext:hover{
-    color: gold;
+    color:  rgb(102, 255, 0);
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid  rgb(102, 255, 0);
 }
 .active{
-    color: gold;
+    color:  rgb(102, 255, 0);
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid  rgb(102, 255, 0);
 }
 
 .contactbtn{
-    background-color: #0056b3;
+    background-color:  rgb(170, 255, 0);
     border: none;
     border-radius: 7px;
     width: 7.5rem;
     height: 2.5rem;
     font-size: medium;
     font-weight: bold;
-    color: gold;
+    color:  blue;
     cursor: pointer;
     transition-duration: 0.7s;
 }
 .contactbtn:hover{
     transform: scale(1.1, 1.1);
-    color: blue;
-    background-color: gold;
+    color: black;
+    background-color: rgb(17, 255, 0);
  
 }
 .none{

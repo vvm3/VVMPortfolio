@@ -27,7 +27,7 @@
   color: #fffdfd;
   font-size: 40px
 }
-.li{
+.lin{
     color: #0077B5;
     font-size: 40px;
 }
@@ -63,7 +63,7 @@
 }
 
 .skillTitleMy {
-  color: gold;
+  color: rgb(102, 255, 0);;
 }
 
 form {
@@ -105,7 +105,7 @@ label {
 .forminput:hover,
 .formtxtmsg:hover {
   transition: 1.5s;
-  box-shadow: 0 0 10px gold;
+  box-shadow: 0 0 10px rgb(102, 255, 0);
 }
 
 .forminput::placeholder,
@@ -122,8 +122,8 @@ label {
 }
 
 .formbtn {
-  background-color: #007bff;
-  color: white;
+  background-color: rgb(170, 255, 0);
+  color: blue;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -137,5 +137,5 @@ label {
 .formbtn:hover {
   background-color: #0056b3;
   color: gold;
-  box-shadow: 0 0 8px gold;
+  box-shadow: 0 0 8px rgb(170, 255, 0);
 }

@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid gold;
+    border: 1px solid rgb(170, 255, 0);
     margin: auto;
     margin-bottom: 3rem;
 }
@@ -49,7 +49,7 @@
 }
 
 .trynow {
-    background-color: gold;
+    background-color: rgb(170, 255, 0);
     color: blue;
     border: none;
     padding: 10px 20px;

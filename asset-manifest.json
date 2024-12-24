@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/VVMPortfolio/static/css/main.6b05a37a.css",
-    "main.js": "/VVMPortfolio/static/js/main.7f4b5919.js",
+    "main.css": "/VVMPortfolio/static/css/main.233d201e.css",
+    "main.js": "/VVMPortfolio/static/js/main.9b813f0f.js",
     "static/js/453.d45caace.chunk.js": "/VVMPortfolio/static/js/453.d45caace.chunk.js",
     "static/media/vm.jpeg": "/VVMPortfolio/static/media/vm.1830b9173a5f616cd472.jpeg",
     "static/media/GitHubProject.jpg": "/VVMPortfolio/static/media/GitHubProject.28a17e32e3935d4b9324.jpg",
     "static/media/To-Do ReactProject.png": "/VVMPortfolio/static/media/To-Do ReactProject.2a8a27abd909ef484db7.png",
-    "static/media/profile-pic.png": "/VVMPortfolio/static/media/profile-pic.17ca3ac4a043cb6e3e93.png",
     "static/media/ToDoProject.png": "/VVMPortfolio/static/media/ToDoProject.6666a548f7ed3f4f375e.png",
+    "static/media/profile-pic.jpg": "/VVMPortfolio/static/media/profile-pic.d30fb6ba958fef156eac.jpg",
     "static/media/CalculatorProject.png": "/VVMPortfolio/static/media/CalculatorProject.17c7d4395c1088a857b4.png",
     "static/media/TicTacToeProject.png": "/VVMPortfolio/static/media/TicTacToeProject.1f3774223c1f1ecebbd8.png",
     "static/media/QuizProject.png": "/VVMPortfolio/static/media/QuizProject.2790a09a226ed3ab151b.png",
     "index.html": "/VVMPortfolio/index.html",
-    "main.6b05a37a.css.map": "/VVMPortfolio/static/css/main.6b05a37a.css.map",
-    "main.7f4b5919.js.map": "/VVMPortfolio/static/js/main.7f4b5919.js.map",
+    "main.233d201e.css.map": "/VVMPortfolio/static/css/main.233d201e.css.map",
+    "main.9b813f0f.js.map": "/VVMPortfolio/static/js/main.9b813f0f.js.map",
     "453.d45caace.chunk.js.map": "/VVMPortfolio/static/js/453.d45caace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b05a37a.css",
-    "static/js/main.7f4b5919.js"
+    "static/css/main.233d201e.css",
+    "static/js/main.9b813f0f.js"
   ]
 }

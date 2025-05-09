@@ -6,7 +6,7 @@ const WorkChild = (props) => {
     return (
         <>
             <main className="card">
-                <a href={props.link} target="_newpage">
+                <a href={props.link} target="_blank">
                     <img className="pimg" src={props.img} alt="ProjectImg" />
                 </a>
                 <div className="proinfo">

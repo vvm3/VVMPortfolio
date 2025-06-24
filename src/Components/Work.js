@@ -9,6 +9,7 @@ import quiz from "./Content/QuizProject.png";
 import todo from "./Content/ToDoProject.png";
 import github from "./Content/GitHubProject.jpg";
 import Footer from './Footer';
+import NotesMnagerApp from "./Content/NotesMnagerApp.png";
 
 const Work = () => {
     return (
@@ -17,13 +18,14 @@ const Work = () => {
             <main className="wmain">
                 <WorkChild link="https://vvm3.github.io/VVMPortfolio/" img={portfolioImg} proname="Peronal Portfolio" technologies="Technolohies : React.js, JS, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/VMTIC-TAC-TOE-GAME/" img={game} proname="TIC-TAC-TOE Game" technologies="Technolohies : JavaScript, CSS3, HTML5" btnname="Try Now" />
+                <WorkChild link="https://vvm3.github.io/NotesManager/" img={NotesMnagerApp} proname="Notes Manager App (CRUD)" technologies="Technolohies : React.js, JS, CSS3" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/To-Do-React/" img={todoreact} proname="To-Do React App" technologies="Technolohies : React.js, JS, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/VMCalculator/" img={cal} proname="Fully Functional Calculator" technologies="Technolohies : JS, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/Quiz-App/" img={quiz} proname="Quiz Web App" technologies="Technolohies : JS, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://vvm3.github.io/ToDo-app/" img={todo} proname="To-Do Web App" technologies="Technolohies : JavaScript, CSS3, HTML5" btnname="Try Now" />
                 <WorkChild link="https://github.com/vvm3" img={github} proname="My GitHub Account" technologies="Here Is My All Projects" btnname="Click Here" />
             </main>
-            <button className="wbtn" onClick={() => { alert("Now only these projects have been completed, a full stack project is in the process. Please visit on my GitHub account") }}>See More</button>
+            <button className="wbtn" onClick={() => { alert("Now only these projects have been completed, a full stack MERN project is in the process. Please visit on my GitHub account") }}>See More</button>
             <Footer/>
         </>
     )

@@ -2,7 +2,7 @@
   "name": "vvm-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tVM8.github.io/VVMPortfolio",
+  "homepage": "https://vvm3.github.io/VVMPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -117,6 +117,33 @@
     color: #8800ff;
 }
 
+.nodejs{
+    color: #339933;
+}
+
+.ts{
+    color: #3178C6;
+}
+.jq{
+    color: #0769AD;
+}
+.mongodb{
+    color: #47A248;
+}
+.express{
+    color: #cccccc64;
+}
+.azure{
+    color: #0078D7;
+}
+.filezila{
+    color: #BF0000;
+}
+.github{
+    color: #181717;
+}
+
+
 .solution {
     color: #cddc39;
 }
@@ -132,6 +159,21 @@
 .collab {
     color: #7be35e;
 }
+.teamwork {
+    color: #6a1b9a; /* Purple - Unity/Collaboration */
+}
+
+.problem {
+    color: #ff9800; /* Orange - Creativity & Thinking */
+}
+
+.adaptability {
+    color: #009688; /* Teal - Flexibility */
+}
+
+.communication {
+    color: #2196f3; /* Blue - Clarity and Communication */
+}
 
 
 .h2 {
@@ -145,6 +187,10 @@
     animation: slideRight 1s ease-out forwards;
     animation-delay: 0.7s;
 }
+
+
+
+
 
 @keyframes slideRight {
     from {

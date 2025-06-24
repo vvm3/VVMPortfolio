@@ -10,7 +10,6 @@ const Navbar = () => {
     };
     return (
         <>
-
             <div className="navbar">
                 <a href="https://vvm3.github.io/VVMPortfolio/"><img src={icon} alt="myIcon" className="iconimg" /></a>
                 <input type="checkbox" id="menu-toggle" className="menu-toggle"/>

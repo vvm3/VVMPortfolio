@@ -8,7 +8,9 @@
     margin: auto;
     font-weight: 500;
     font-size: 13px;
-    margin-top: 2rem;
+    margin-top: 7rem;
+    position: static;
+    bottom: 0;
 }
 .footer{
     margin: auto;
